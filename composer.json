@@ -1,0 +1,46 @@
+{
+    "name": "fastd/fastd",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "description": "FastD php simple framework",
+    "keyword": [
+        "fastd ",
+        "fastd php",
+        "simple framework",
+        "php simple framework",
+        "simple php framework",
+        "fd",
+        "swoole fd"
+    ],
+    "authors": [
+        {
+            "name": "janhuang",
+            "email": "bboyjanhuang@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "fastd/framework": "~2.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.0"
+    },
+    "autoload": {
+        "files": [
+            "app/application.php"
+        ],
+        "psr-4": {
+            "": "src"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "extra": {
+        "web": "public",
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    }
+}
